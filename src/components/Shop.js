@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Shop() {
   return (
-    <div className="container-fluid fruite py-5">
+    <section id="shop">
+      <div className="container-fluid fruite py-5">
       <div className="container py-5">
         <div className="tab-className text-center">
           <div className="row g-4">
@@ -726,5 +727,6 @@ export default function Shop() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
